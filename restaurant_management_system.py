@@ -25,7 +25,7 @@ f2.pack(side=RIGHT)
 localtime = time.asctime(time.localtime(time.time()))
 
 ############# Info ##############################
-lblInfo = Label(Tops, font=('arial',50,'bold'),text="Restaurent Management System",fg="Steel Blue",bd=10,anchor='w')
+lblInfo = Label(Tops, font=('arial',50,'bold'),text="Restaurant Management System",fg="Steel Blue",bd=10,anchor='w')
 lblInfo.grid(row=0,column=0)
 lblInfo = Label(Tops, font=('arial',10,'bold'),text=localtime,fg="Steel Blue",bd=10,anchor='w')
 lblInfo.grid(row=1,column=0)
